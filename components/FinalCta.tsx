@@ -34,10 +34,7 @@ export default function FinalCta() {
 
             <Reveal delay={0.1}>
               <div className="mt-9 border-l-2 border-orange pl-5 sm:pl-6">
-                <p className="font-serif text-2xl text-white sm:text-3xl">{contact.agentName}</p>
-                <p className="mt-1.5 text-[11px] uppercase tracking-label text-white/60">
-                  {contact.agentCompany}
-                </p>
+                <p className="font-serif text-2xl text-white sm:text-3xl">{contact.agentCompany}</p>
               </div>
             </Reveal>
 
