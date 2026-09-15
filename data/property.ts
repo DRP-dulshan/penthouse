@@ -239,17 +239,17 @@ export const scenarioCombined = {
     'The same renovation as above — but the unit is let for a year before it is sold. The rent is additive: it stacks on top of the resale profit rather than replacing it, which lifts the return well beyond a straight resale.',
   figures: [
     { label: 'Rent after renovation', value: 'AED 300,000', note: 'Per year' },
-    { label: 'Long-term ROI', value: '7.6%', note: 'On rent alone' },
+    { label: 'Long-term ROI', value: '7.45', note: 'On rent alone' },
   ],
   combined: {
     profit: {
       label: 'Combined profit',
-      value: 'AED 1,376,000 – 1,576,000',
+      value: 'AED 1,276,000 – 1,476,000',
       note: 'Renovation resale + 1 year rent',
     },
     roi: {
       label: 'Combined ROI',
-      value: '35% – 40%',
+      value: '31% – 36%',
       note: 'Renovation resale + 1 year rent',
     },
   },
