@@ -90,7 +90,6 @@ const jsonLd = {
     seller: {
       '@type': 'RealEstateAgent',
       name: contact.agentCompany,
-      employee: { '@type': 'Person', name: contact.agentName },
       telephone: contact.phoneDisplay,
       email: contact.email,
       url: contact.websiteUrl,

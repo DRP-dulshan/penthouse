@@ -9,10 +9,9 @@
 
 const WHATSAPP_NUMBER = '971567770272';
 const WHATSAPP_MESSAGE =
-  "Hi Jasko, I'm interested in the DIFC Duplex Penthouse at Park Towers. Please share more details.";
+  "Hello, I'm interested in the DIFC Duplex Penthouse at Park Towers. Please share more details.";
 
 export const contact = {
-  agentName: 'Jasko Miletic',
   agentCompany: 'Dubai Rapid Properties',
   whatsappNumber: WHATSAPP_NUMBER,
   whatsappMessage: WHATSAPP_MESSAGE,
@@ -323,7 +322,7 @@ export const finalCta = {
   backgroundImage: '/images/gallery/reception-lounge.jpg',
   backgroundWidth: 1264,
   backgroundHeight: 843,
-  ctaLabel: 'Message Jasko on WhatsApp',
+  ctaLabel: 'Message Us on WhatsApp',
 } as const;
 
 export const footer = {
