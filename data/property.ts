@@ -51,7 +51,7 @@ export const hero = {
   title: 'DIFC Duplex Penthouse',
   subtitle: '2-Bedroom Duplex · 2,018 sqft · Park Towers, DIFC · Ready Investment',
   price: 'AED 3,300,000',
-  priceNote: 'Target purchase price AED 3,200,000 · AED 5/sqft',
+  priceNote: 'Target purchase price AED 3,200,000 · AED 1,585/sqft',
   image: '/images/gallery/hero-living.jpg',
   imageAlt:
     'Main living area of the DIFC duplex penthouse at sunset, framed by floor-to-ceiling angled glazing overlooking the Dubai skyline',
@@ -227,7 +227,7 @@ export const scenarioA = {
       { name: 'Central Park Towers', price: 'AED 5.20M', rate: 'AED 2,550/sqft' },
       { name: 'Index Tower', price: 'AED 5.25M', rate: 'AED 2,516/sqft' },
     ],
-    note: 'Comparable DIFC towers trade above AED 2,500 per square foot. At 2,018 sqft, this unit is offered at AED 1,586 per square foot — the gap is the opportunity.',
+    note: 'Comparable DIFC towers trade above AED 2,500 per square foot. At 2,018 sqft, this unit is offered at AED 5 per square foot — the gap is the opportunity.',
     footnote: 'Market data extracted from DXB Interact.',
   },
 } as const;
@@ -335,7 +335,7 @@ export const footer = {
 export const seo = {
   title: 'DIFC Duplex Penthouse — Park Towers | Dubai Rapid Properties',
   description:
-    '2-bedroom duplex penthouse, 2,018 sqft, in Park Towers, DIFC at AED 3,300,000 — AED 1,586/sqft in a district trading above AED 2,500/sqft. Full feasibility studies inside.',
+    '2-bedroom duplex penthouse, 2,018 sqft, in Park Towers, DIFC at AED 3,300,000 — AED 1,585/sqft in a district trading above AED 2,500/sqft. Full feasibility studies inside.',
   siteName: 'Dubai Rapid Properties',
   ogImage: '/images/og-image.jpg',
   ogImageWidth: 1200,
