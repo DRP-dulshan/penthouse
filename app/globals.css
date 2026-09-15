@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* keeps anchored sections clear of the sticky header */
+    scroll-padding-top: 5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-bone font-sans text-body antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Visible, on-brand focus ring everywhere */
+  :where(a, button, [tabindex]:not([tabindex='-1'])):focus-visible {
+    @apply outline-none ring-2 ring-orange ring-offset-2 ring-offset-bone;
+  }
+
+  .on-dark :where(a, button, [tabindex]:not([tabindex='-1'])):focus-visible {
+    @apply ring-offset-charcoal;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-serif font-normal text-charcoal;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-shell px-5 sm:px-8 lg:px-10;
+  }
+
+  .section {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+
+  /* Small uppercase label with the orange hairline in front of it */
+  .eyebrow {
+    @apply flex items-center gap-3 text-[11px] font-medium uppercase tracking-label text-orange-ink sm:text-xs;
+  }
+
+  .eyebrow::before {
+    content: '';
+    @apply h-px w-8 flex-none bg-orange;
+  }
+
+  .eyebrow-on-dark {
+    @apply text-orange;
+  }
+
+  .display {
+    @apply font-serif text-charcoal;
+  }
+
+  .rule {
+    @apply h-px w-full bg-charcoal/10;
+  }
+
+  .rule-on-dark {
+    @apply h-px w-full bg-white/10;
+  }
+
+  /* CSS-only entrance for above-the-fold copy. The hero must never depend on
+     JavaScript to become visible, so it does not use the Framer reveal. */
+  .rise {
+    animation: rise 0.62s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2.5 rounded-none px-6 py-3.5 text-[13px] font-medium uppercase tracking-[0.14em] transition-colors duration-200 sm:text-sm;
+  }
+
+  .btn-primary {
+    @apply btn bg-orange-deep text-white hover:bg-orange-ink;
+  }
+
+  .btn-ghost-light {
+    @apply btn border border-white/40 text-white hover:border-white hover:bg-white/10;
+  }
+
+  .btn-ghost-dark {
+    @apply btn border border-charcoal/25 text-charcoal hover:border-charcoal hover:bg-charcoal hover:text-bone;
+  }
+}
