@@ -14,7 +14,7 @@ export default function Footer() {
             width={brand.logoWidth}
             height={brand.logoHeight}
             loading="lazy"
-            className="h-9 w-auto sm:h-11"
+            className="h-9 w-auto self-start sm:h-11"
           />
           <p className="text-[12px] text-body/80 sm:text-right sm:text-[13px]">{footer.copyright}</p>
         </div>
