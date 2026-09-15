@@ -51,7 +51,7 @@ export const hero = {
   title: 'DIFC Duplex Penthouse',
   subtitle: '2-Bedroom Duplex · 2,018 sqft · Park Towers, DIFC · Ready Investment',
   price: 'AED 3,300,000',
-  priceNote: 'Target purchase price AED 3,200,000 · AED 1,586/sqft',
+  priceNote: 'Target purchase price AED 3,200,000 · AED 5/sqft',
   image: '/images/gallery/hero-living.jpg',
   imageAlt:
     'Main living area of the DIFC duplex penthouse at sunset, framed by floor-to-ceiling angled glazing overlooking the Dubai skyline',
@@ -66,7 +66,7 @@ export const quickFacts = [
   { value: 'Duplex', label: 'Penthouse' },
   { value: size.sqftLabel, label: size.sqmLabel },
   { value: 'Park Towers', label: 'DIFC' },
-  { value: 'AED 1,586', label: 'Per sqft' },
+  { value: 'AED 1,585', label: 'Per sqft' },
   { value: 'Ready', label: 'To move / rent' },
 ] as const;
 
@@ -74,7 +74,7 @@ export const opportunity = {
   label: 'The Opportunity',
   heading: 'Priced well below the district it sits in',
   paragraphs: [
-    'A two-bedroom duplex penthouse inside Park Towers, in the heart of the Dubai International Financial Centre, available at AED 1,586 per square foot — in a district where comparable towers trade above AED 2,500 per square foot.',
+    'A two-bedroom duplex penthouse inside Park Towers, in the heart of the Dubai International Financial Centre, available at AED 1,585 per square foot — in a district where comparable towers trade above AED 2,500 per square foot.',
     'That gap is the whole case. It leaves room for two clear routes: renovate the unit and resell into the district’s prevailing rate, or hold it as a ready rental asset and let a fully let DIFC address do the work.',
     'Supply in this specific category — duplex penthouse floor plates inside DIFC — is limited, and it is not being replenished, while demand for the district keeps growing as DIFC expands. The unit is ready to move into or rent today; the two studies below set out each route in full.',
   ],
@@ -221,7 +221,7 @@ export const scenarioA = {
       name: 'This unit — Park Towers',
       sizeLabel: size.sqftLabel,
       price: 'AED 3,300,000',
-      rate: 'AED 1,586/sqft',
+      rate: 'AED 1,585/sqft',
     },
     items: [
       { name: 'Central Park Towers', price: 'AED 5.20M', rate: 'AED 2,550/sqft' },
