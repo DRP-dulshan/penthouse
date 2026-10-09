@@ -38,17 +38,17 @@ export const brand = {
  * identically everywhere it appears.
  */
 export const size = {
-  sqft: 2018,
-  sqm: 187.5,
-  sqftLabel: '2,018 sqft',
-  sqmLabel: '187.5 sqm',
-  full: '2,018 sqft (187.5 sqm)',
+  sqft: 2057,
+  sqm: 191.1,
+  sqftLabel: '2,057 sqft',
+  sqmLabel: '191.1 sqm',
+  full: '2,057 sqft (191.1 sqm)',
 } as const;
 
 export const hero = {
   label: 'Investment Opportunity — DIFC',
   title: 'DIFC Duplex Penthouse',
-  subtitle: '2-Bedroom Duplex · 2,018 sqft · Park Towers, DIFC · Ready Investment',
+  subtitle: '2-Bedroom Duplex · 2,057 sqft · Park Towers, DIFC · Ready Investment',
   price: 'AED 3,300,000',
   priceNote: 'Target purchase price AED 3,200,000 · AED 1,585/sqft',
   image: '/images/gallery/hero-living.jpg',
@@ -226,7 +226,7 @@ export const scenarioA = {
       { name: 'Central Park Towers', price: 'AED 5.20M', rate: 'AED 2,550/sqft' },
       { name: 'Index Tower', price: 'AED 5.25M', rate: 'AED 2,516/sqft' },
     ],
-    note: 'Comparable DIFC towers trade above AED 2,500 per square foot. At 2,018 sqft, this unit is offered at AED 5 per square foot — the gap is the opportunity.',
+    note: 'Comparable DIFC towers trade above AED 2,500 per square foot. At 2,057 sqft, this unit is offered at AED 5 per square foot — the gap is the opportunity.',
     footnote: 'Market data extracted from DXB Interact.',
   },
 } as const;
@@ -259,7 +259,7 @@ export const scenarioB = {
   label: 'Feasibility Study — Rental ROI',
   heading: 'Rental Income',
   intro:
-    'Held as-is, the 2,018 sqft duplex is ready to let today. Three positions, from a single-cheque long lease to a managed short-term operation.',
+    'Held as-is, the 2,057 sqft duplex is ready to let today. Three positions, from a single-cheque long lease to a managed short-term operation.',
   rentals: [
     { type: 'Long-term rent', amount: 'AED 200,000', terms: '1 cheque', highlight: false },
     { type: 'Long-term rent', amount: 'AED 210,000', terms: '2 cheques', highlight: false },
@@ -334,7 +334,7 @@ export const footer = {
 export const seo = {
   title: 'DIFC Duplex Penthouse — Park Towers | Dubai Rapid Properties',
   description:
-    '2-bedroom duplex penthouse, 2,018 sqft, in Park Towers, DIFC at AED 3,300,000 — AED 1,585/sqft in a district trading above AED 2,500/sqft. Full feasibility studies inside.',
+    '2-bedroom duplex penthouse, 2,057 sqft, in Park Towers, DIFC at AED 3,300,000 — AED 1,585/sqft in a district trading above AED 2,500/sqft. Full feasibility studies inside.',
   siteName: 'Dubai Rapid Properties',
   ogImage: '/images/og-image.jpg',
   ogImageWidth: 1200,
